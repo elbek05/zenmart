@@ -1,0 +1,195 @@
+.navbar_frame {
+	position: relative;
+	width: 1920px;
+    height: 145px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: #443297;
+
+}
+
+.container {
+	position: relative;
+	padding: 20px 0px 15px 20px;
+	width: 1320px;
+	height: 1000px;
+	display: flex;
+flex-direction: column;
+}
+
+.navbar_top {
+	width: 100px;
+	height: 50px;
+
+	display: flex;
+	flex-direction: row;
+	
+
+}
+.navbar_top > a img {
+	margin-right: 76px;
+	width: 117px;
+
+	margin-right:76px;
+	height: 36px;
+}
+.navbar_top .nav_search_frame {
+	width: 650px;
+	height: 50px;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+background: #fff;
+border-radius:6px;
+
+}
+
+
+.navbar_top .search_box {
+	padding: 10px 17px;
+	width: auto;
+	height: auto;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.search_box .category_list  {
+	width: 166px;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	border-right: 1px solid #060606 ;
+}
+
+.category_list select {
+	width: 140px;
+	height: 30px;
+
+	border: none;
+	outline: none;
+	
+	font-family: Jost;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px; 
+}
+
+.category_list input {
+	width: 387px;
+	height: 22px;
+
+	border: none;
+	outline: none;
+	
+	font-family: Jost;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px; 
+}
+
+.nav_search_frame .search_icon_box {
+	width: 50px;
+	height: 50px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+	background: #f5c34f;
+	border-radius: 0px 6px 6px 0px;
+}
+
+.search_icon_box img {
+	width: 20px;
+	height: 20px;
+}
+.navbar_top .nav_top_menu {
+	margin-left:59px;
+	width: 416px;
+	height: 50px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.nov_top_menu .top_menu_box {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+}
+
+.top_menu_box .box_icon_box {
+	margin-right: 16px;
+	width: 54px;
+	height: 50px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid rgba(255,255,255, 0.2);
+	border-radius: 6px;
+}
+
+.box_icon_box img  {
+	width: 22px;
+	height: 22px;
+}
+
+.top_menu_box  .box_info_box {
+	display: flex;
+	flex-direction: column;
+}
+.box_info_box span {
+	font-family: "Jost";
+	font-style: normal;
+	font-weight:400;
+	font-size: 13px;
+	line-height: 22px;
+	color: #ffffff;
+}
+.box_info_box strong {
+	font-family: "Jost";
+	font-style: normal;
+	font-weight:500;
+	font-size: 16px;
+	line-height: 22px;
+	color: #ffffff;
+
+}
+.box_icon_box .basket_count  {
+width: 15px;
+height: 15px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+ background: #f5c34b;	
+ border-radius: 50%;
+ color: #0B1E40;
+
+font-family:"jost";
+font-size: 8px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+
+
+}
+
+.navbar_boot {
+	width: 100px;
+	height: 50px;
+	background-color: blue;
+}
+
