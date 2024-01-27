@@ -1,6 +1,6 @@
 .navbar_frame {
 	position: relative;
-	width: 1920px;
+	width: 100%;
     height: 145px;
 	display: flex;
 	flex-direction: row;
@@ -86,7 +86,9 @@
 	line-height: 22px; 
 }
 
-.category_list input {
+
+/* .category_list  ,input { */
+	.search_box ,input{
 	width: 387px;
 	height: 22px;
 
@@ -116,7 +118,7 @@
 	height: 20px;
 }
 .navbar_top .nav_top_menu {
-	margin-left: 130px;
+	margin-left: 59px;
 	width: 416px;
 	height: 50px;
 
@@ -130,14 +132,16 @@
 	flex-direction: row;
 	align-items: center;
 	cursor: pointer;
+	margin-right: 30px;
 }
 
 .top_menu_box .box_icon_box {
-	position: relative;
 	margin-right: 16px;
-	width: 53px;
+	width: 54px;
 	height: 50px;
 
+	position: relative;
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -152,7 +156,7 @@
 	display: flex;
 	flex-direction: column;
 }
-.box_info_box span {
+.box_info_box ,span {
 	font-family: "Jost";
 	font-style: normal;
 	font-weight:400;
@@ -161,7 +165,7 @@
 	color: #ffffff;
 	
 }
-.box_info_box strong {
+.box_info_box  ,strong {
 	font-family: "Jost";
 	font-style: normal;
 	font-weight:500;
