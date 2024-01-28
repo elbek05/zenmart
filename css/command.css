@@ -156,17 +156,16 @@ span{
 	border: 1px solid #443297;
 }
 
-.navbar_frame.top_menu_box .box_icon_box {
+.navbar_frame .top_menu_box .box_icon_box {
 	margin-right: 16px;
 	width: 54px;
 	height: 50px;
-
 	position: relative;
 	
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid rgba(255,255,255, 0.2);
+	border: 1px solid rgba(255,255,255, 0.1);
 	border-radius: 6px;
 }
 .navbar_frame .box_icon_box img  {
@@ -176,6 +175,7 @@ span{
 .navbar_frame .top_menu_box  .box_info_box {
 	display: flex;
 	flex-direction: column;
+  color: #fff;
 }
 .navbar_frame .box_info_box .span {
 	font-family: "Jost";
@@ -198,8 +198,8 @@ span{
     width: 15px;
     height: 15px;
     position: absolute;
-    top: 20px;
-    right: 166px;
+    top: 1px;
+    right: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
