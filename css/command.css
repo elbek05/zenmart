@@ -12,3 +12,285 @@ span{
 	margin: 0;
 	padding: 0;
 }
+
+/* Home Css qushilgan joy */
+.container {
+	position: relative;
+	
+	width: 1320px;
+	height: 1000px;
+	display: flex;
+}
+
+.navbar_frame {
+	position: relative;
+	width: 100%;
+    height: 145px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: #443297;
+
+}
+.navbar_frame .container {
+	padding: 20px 0px 15px 20px;
+    flex-direction: column;
+}
+.navbar_frame .navbar_top {
+	width: 100px;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+}
+.navbar_frame .navbar_top > a img {
+	margin-right: 76px;
+	width: 117px;
+	margin-right:76px;
+	height: 36px;
+
+	color: var(--Bg-White, #FFF);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+	color: var(--Bg-2, #F5C34B);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.navbar_frame .navbar_top .nav_search_frame {
+	width: 650px;
+	height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fff;
+    border-radius:6px;
+}
+.navbar_frame .navbar_top .search_box {
+	padding: 10px 17px;
+	width: 651px;
+	height: 50px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.navbar_frame .search_box .category_list  {
+	width: 166px;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	border-right: 1px solid #060606;
+}
+
+.navbar_frame .category_list select {
+	width: 140px;
+	height: 30px;
+
+	border: none;
+	outline: none;
+	
+	font-family: "Jost";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px; 
+}
+
+
+.navbar_frame .category_list  ,input {
+	
+	width: 387px;
+	height: 22px;
+
+	border: none;
+	outline: none;
+	
+	font-family: "Jost";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px; 
+}
+
+.navbar_frame .nav_search_frame .search_icon_box {
+	width: 50px;
+	height: 50px;
+
+   display: flex;
+    justify-content: center;
+    align-items: center;
+	background: #f5c34f;
+	border-radius: 0px 6px 6px 0px;
+}
+
+.navbar_frame .search_icon_box img {
+	width: 20px;
+	height: 20px;
+}
+.navbar_frame .navbar_top .nav_top_menu {
+	margin-left: 59px;
+	width: 416px;
+	height: 50px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.navbar_frame .nav_top_menu .top_menu_box {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+	margin-right: 30px;
+	border: 1px solid #443297;
+}
+
+.navbar_frame.top_menu_box .box_icon_box {
+	margin-right: 16px;
+	width: 54px;
+	height: 50px;
+
+	position: relative;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid rgba(255,255,255, 0.2);
+	border-radius: 6px;
+}
+.navbar_frame .box_icon_box img  {
+	width: 22px;
+	height: 22px;
+}
+.navbar_frame .top_menu_box  .box_info_box {
+	display: flex;
+	flex-direction: column;
+}
+.navbar_frame .box_info_box .span {
+	font-family: "Jost";
+	font-style: normal;
+	font-weight:400;
+	font-size: 13px;
+	line-height: 22px;
+	color: #ffffff;
+	
+}
+.navbar_frame .box_info_box  .strong {
+	font-family: "Jost";
+	font-style: normal;
+	font-weight:500;
+	font-size: 16px;
+	line-height: 22px;
+	color: #ffffff;
+}
+.navbar_frame .box_icon_box .basket_count  {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 20px;
+    right: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5c34b;	
+    border-radius: 50%;
+    font-family:"Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    color: #0B1E40;
+}
+.navbar_frame .navbar_bott {
+    margin-top: 20px;
+	width: 1320px;
+	height: 1px;
+	display: flex;
+	flex-direction: row;
+	border-top: 1px solid  #5746a1;
+}
+.navbar_frame .navbar_bott .navbar_bott_menu_box{
+    margin-top: 10px;
+	width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.navbar_frame .navbar_bott_menu_box .browse_box {
+	width: 185px;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-right: 1px solid #5746a1;;
+}
+.navbar_frame .browse_box img {
+    margin-right: 10px;
+	width: 20px;
+	height: 18px;
+}
+.navbar_frame .browse_box span {
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #FFF;
+}
+.navbar_frame .navbar_bott_menu_box .navbar_route_menu {
+	margin-left: 12px;
+	width: 690px;
+	display: flex;
+	flex-direction: row;
+}
+
+.navbar_frame .navbar_route_menu .router_menu{
+	margin-right: 20px;
+	width: auto;
+	height: 30px;
+	display: flex;
+}
+.navbar_frame .router_menu a {
+    font-family:  "Jost";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFF;
+}
+.navbar_frame .router_menu a.active {
+    color: #f5c34b;
+}
+.navbar_frame .navbar_bott_menu_box .sorting_menu{
+	width: 436px;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+}
+.navbar_frame .sorting_menu a {
+    margin-left: 20px;
+	font-family: "Jost";
+	display: inline-block;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px; 
+	color: #FFF;
+	margin-right: 0px;
+}
+
+
+
+
+
