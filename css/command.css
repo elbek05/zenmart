@@ -16,9 +16,8 @@ span{
 /* Home Css qushilgan joy */
 .container {
 	position: relative;
-	
 	width: 1320px;
-	height: 1000px;
+	height: auto;
 	display: flex;
 }
 
