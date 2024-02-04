@@ -1,0 +1,10 @@
+<svg width="83" height="20" viewBox="0 0 83 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="bullets">
+<ellipse id="Ellipse 54" cx="1.99938" cy="10" rx="1.78258" ry="2" fill="#112137"/>
+<ellipse id="Ellipse 55" cx="21.6078" cy="10" rx="1.78258" ry="2" fill="#112137"/>
+<path id="Ellipse 59" d="M49.129 10C49.129 15.0819 45.4812 19 41.2161 19C36.951 19 33.3032 15.0819 33.3032 10C33.3032 4.91812 36.951 1 41.2161 1C45.4812 1 49.129 4.91812 49.129 10Z" stroke="#112137" stroke-width="2"/>
+<ellipse id="Ellipse 56" cx="41.2162" cy="10" rx="1.78258" ry="2" fill="#112137"/>
+<ellipse id="Ellipse 57" cx="60.8246" cy="10" rx="1.78258" ry="2" fill="#112137"/>
+<ellipse id="Ellipse 58" cx="80.433" cy="10" rx="1.78258" ry="2" fill="#112137"/>
+</g>
+</svg>
