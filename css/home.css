@@ -34,6 +34,9 @@
    .container .category_top a:hover {
     border-bottom: 2px solid #041E42;
    }
+   /* 2222222 */
+   
+   /* 3333333 */
   
 .header_frame {
 	position: relative;
@@ -517,47 +520,65 @@ line-height: 22px;
  }
      /* product_pagionation_box */
 
-  .selling_product_frame .container .product_pagionation_box  {
-  margin-top: 30px;
-  width: 100%;
-  height: 100px;
+       .product_pagionation_box  {
+      margin-top: 30px;
+      width: 100%;
+      height: 100px;
+    
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+     }         
+       .product_pagionation_box .product_pagionation_main {
+      width: auto;
+      height: 24px;
+    
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+     }
+      .product_pagionation_main .pagionation_dot {
+      margin: 0 20px;
+      display: flex;
+      flex-direction: row;
+     }
+      .pagionation_dot .dot {
+      width: 20px;
+      height: 20px;
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      border-radius: 50%;
+     }
+    
+       .pagionation_dot .dot.active {
+      border: 2px solid #112137;
+     }
+    
+       .pagionation_dot .dot div {
+      width: 4px;
+      height: 4px;
+      background: #112137;
+      border-radius: 50%;
+     }
+     .home_page .adv_frame {
+      margin-top: 90px;
+      width: 100%;
+      height: 120px;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
- }         
- .selling_product_frame .product_pagionation_box .product_pagionation_main {
-  width: auto;
-  height: 24px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
- }
- .selling_product_frame .product_pagionation_main .pagionation_dot {
-  margin: 0 20px;
-  display: flex;
-  flex-direction: row;
- }
- .selling_product_frame .pagionation_dot .dot {
-  width: 20px;
-  height: 20px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  border-radius: 50%;
- }
-
- .selling_product_frame .pagionation_dot .dot.active {
-  border: 2px solid #112137;
- }
-
- .selling_product_frame .pagionation_dot .dot div {
-  width: 4px;
-  height: 4px;
-  background: #112137;
-  border-radius: 50%;
- }
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      background-color: #e5edff;
+      text-align: center;
+      font-family: "Jost";
+      font-style: normal;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 26px;
+      color: #0053F6; 
+     }
