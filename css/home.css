@@ -683,7 +683,7 @@ line-height: 22px;
      }
      .small_product_wrapper .small_product_box {
       position: relative;
-      padding: 30px;
+      padding: 90px;
       width: 293px;
      height:170px ;
      display: flex;
@@ -722,5 +722,5 @@ line-height: 22px;
     .small_product_box  img {
       position: absolute;
       right:40px;
-      top: 40px;
+      top: 70px;
     }
