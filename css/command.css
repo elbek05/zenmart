@@ -277,7 +277,7 @@ span{
 	display: flex;
 	flex-direction: row;
 }
-.navbar_frame .sorting_menu span {
+.navbar_frame .sorting_menu a {
     margin-left: 20px;
 	font-family: "Jost";
 	display: inline-block;
