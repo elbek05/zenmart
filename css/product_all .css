@@ -118,7 +118,7 @@ line-height: 22px;
 
 	color: var(--Color-Text-Dark, #041E42);
 
- font-family: var(--font);
+ font-family:var(--font);
  font-size: 16px;
  font-style: normal;
  font-weight: 400;
@@ -179,7 +179,7 @@ line-height: 22px;
  }
 .shop_category_frame .category_top span {
 	margin-right: 1080px;
-	font-family: var(--font);
+	font-family:var(--font);
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 500;
@@ -189,7 +189,7 @@ line-height: 22px;
  .shop_category_frame  .category_top a {
 	color: #041E42;
 	text-align: center;
-	font-family: var(--font);
+	font-family:var(--font);
 	font-size: 15px;
 	font-style: normal;
 	font-weight: 500;
@@ -232,8 +232,7 @@ line-height: 22px;
 	margin-top: 15px;
 	color: #041E42;
   text-align: center;
-  font-family: Jost;
-  font-size: 16px;
+  font-family:var(--font);
   font-style: normal;
   font-weight: 500;
   line-height: 28px;
@@ -269,7 +268,7 @@ line-height: 22px;
 
  }
  .shop_page .brands_wrapper .brand_box {
-  margin-right: 20px;
+  margin-right: 200px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -310,7 +309,7 @@ line-height: 22px;
 	flex-direction: row;
 	justify-content: center;
 	color:  #041E42;
-  font-family: var(--font);
+  font-family:var(--font);
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -331,7 +330,7 @@ line-height: 22px;
 	align-items: center;
 
 	color:  #041E42;
-  font-family: var(--font);
+  font-family:var(--font);
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -413,7 +412,7 @@ line-height: 22px;
 	margin-left: 10px;
 	color:  #626974;
 
-  font-family: Jost;
+  font-family:var(--font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -427,7 +426,7 @@ line-height: 22px;
  }
  .price_box strong {
 	color: var(--Color-Text-Dark, #041E42);
-	font-family: Jost;
+	font-family:var(--font);
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 500;
@@ -436,7 +435,7 @@ line-height: 22px;
  .price_box span {
 	margin-left: 10px;
 	color:  #626974;
-	font-family: Jost;
+	font-family:var(--font);
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
@@ -475,7 +474,7 @@ line-height: 22px;
 .shop_page  .spec_titel {
 	margin-top: 130px;
 	color: var(--Color-Text-Dark, #041E42);
-font-family: Jost;
+font-family:var(--font);
 font-size: 28px;
 font-style: normal;
 font-weight: 500;
@@ -486,8 +485,7 @@ line-height: normal;
    margin-top: 0px;
    color: var(--Color-Text-Dark, #041E42);
 
-  font-family: Jost;
-  
+  font-family:var(--font);
   font-style: normal;
  
   line-height: normal;
@@ -520,7 +518,7 @@ line-height: normal;
   outline: none;
   color: var(--Color-Text-Dark, #041E42);
 
-font-family: Jost;
+font-family:var(--font);
 font-size: 15px;
 font-style: normal;
 font-weight: 500;

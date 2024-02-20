@@ -507,7 +507,7 @@ span{
 	width: 1320px;
    }
    .page_router span {
-
+   
 	font-family: var(--font);
 	font-size: 14px;
 	font-style: normal;
@@ -517,9 +517,10 @@ span{
 	color:  #041E42;
    }
    .page_router span.drop {
-	margin: 0px 10px;
+	 margin: 0px 10px; 
    }
    .page_router span.active {
+	
 	font-family: var(--font);
 	font-size: 14px;
 	font-style: normal;
