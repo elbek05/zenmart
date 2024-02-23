@@ -461,6 +461,7 @@ text-align: center;
   }
   .chosenproduct_page  .top_products_frame 
    .container .top_products_top span{
+  
 	color: var(--Color-Text-Dark, #041E42);
 
   font-family: Jost;
