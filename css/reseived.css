@@ -1,0 +1,127 @@
+.reseived_page {
+	margin-bottom: 60px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
+	.reseived_page .check_box {
+		margin: 30px 0px;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+	}
+	.reseived_page .titel_div {
+		margin-top: 100px;
+	
+		display: flex;
+		flex-direction: column;
+	}
+
+
+
+	
+.reseived_page .titel_div  strong {
+		margin-top: 100px;
+		color: var(--Color-Text-Dark, #041E42);
+   text-align: center;
+   font-family: Jost;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+	}
+
+	 .reseived_page .order_main_info {
+		margin-top: 40px;
+		padding: 35px 120px ;
+		width: 1320px;
+		height: auto;
+
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		box-sizing: border-box;
+
+
+		background: #ffffff;
+		border: 1px dashed #626972;
+		border-radius: 6px;
+	 }
+ .reseived_page .order_main_info .info_box {
+	display: flex;
+	flex-direction: column;
+ }
+.reseived_page .info_box span {
+	color: var(--Color-Text-Dark, #041E42);
+  
+   font-family: Jost;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 28px;
+ }
+.reseived_page .info_box p {
+	color: var(--Color-Text-Dark, #041E42);
+
+   font-family: Jost;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 28px; 
+ }
+ .reseived_page .order_detali_box {
+	margin-top: 30px;
+	padding: 30px  70px;
+	width: 1320px;
+	height: auto;
+
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+
+
+	background: #ffffff;
+	border: 1px solid #eaeaea;
+	border-radius: 6px;
+ }
+ .reseived_page .order_detali_box  .box_title {
+	margin-bottom: 20px;
+	color: var(--Color-Text-Dark, #041E42);
+
+font-family: Jost;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ }
+ .reseived_page .order_detali_box .order_detali_main {
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	flex-direction: column;
+ }
+ 
+
+ 
+
+ .reseived_page .order_detali_main  .border_top {
+	border-top: 1px solid #eaeaea;
+ }
+ .reseived_page .order_detali_main  .border_bott {
+	border-bottom: 1px solid #eaeaea;
+ }
+ .reseived_page .order_detali_main .big_height {
+	width: 100%;
+	height: 55px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+ }
