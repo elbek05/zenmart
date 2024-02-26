@@ -8,25 +8,51 @@
 	flex-direction: column;
 	align-items: center;
 	}
-	.reseived_page .check_box {
-		margin: 30px 0px;
-		width: 100%;
-		height: auto;
-		display: flex;
-		flex-direction: row;
+	
+
+	.reseived_page img {
+		
+	padding-top: 00px;
+		width: 80px;
+		height: 80px;
+		color: var(--White, #FFF);
+   font-family: FontAwesome;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 45px; 
 	}
+	
 	.reseived_page .titel_div {
-		margin-top: 100px;
+		margin-top: 60px;
+	width: 437px;
+	height: 168px;
 	
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
+	.reseived_page .titel_div .Ellipess {
+		width: 80px;
+		height: 80px;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		/* border: 1px solid #443297;
+		background: #443297; */
+		border-radius: 50%;
+	} 
 
 
 
 	
 .reseived_page .titel_div  strong {
-		margin-top: 100px;
+	width: 437px;
+	height: 40px;
+		margin-top: 10px;
 		color: var(--Color-Text-Dark, #041E42);
    text-align: center;
    font-family: Jost;
@@ -35,9 +61,22 @@
    font-weight: 500;
    line-height: normal;
 	}
+	.reseived_page .titel_div  span {
+		margin-top: 10px;
+		width: 404px;
+		height: 28px;
+		color: var(--Color-Text-Dark, #041E42);
+   text-align: center;
+   font-family: Jost;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 28px;
+	}
 
 	 .reseived_page .order_main_info {
-		margin-top: 40px;
+
+		margin-top: 60px;
 		padding: 35px 120px ;
 		width: 1320px;
 		height: auto;

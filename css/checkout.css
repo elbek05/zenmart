@@ -85,7 +85,7 @@ align-items: center;
 }
 .checkout_page .double_input input,
 .checkout_main .input_box input,
-.checkout_main .input_box input select {
+.checkout_main .input_box .option select {
 	margin-top: 5px;
 	padding: 0px  15px;
 	width: 100%;
